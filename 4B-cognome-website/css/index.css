@@ -1,0 +1,36 @@
+.colleg{
+    display: flex;
+    flex-direction:column;
+    color: white;
+    font-size: 25px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+div img{
+    width: 50%;
+    height: 50%;
+    
+    border-radius: 200px;
+    
+}
+
+div:hover{
+    transform: scale(1.05);
+}
+
+.tris{
+    border-radius: 30px;
+    width: 25%;
+    height: 25%;
+}
+
+div p{
+    text-decoration: none;
+}

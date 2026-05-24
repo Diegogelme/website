@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="index">
+        <meta name="keywords" content="website">
+        <meta name="author" content="Diego Gelmetti">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> index </title>
+        <link rel="stylesheet" type="text/css" href="..\css\style.css">
+        <link rel="stylesheet" type="text/css" href="..\css\quiz.css">
+    </head>
+
+<body>
+    <header>
+            <nav>
+                <ol>
+                    <ul><a class="link"   href="..\pagine\index.html">Home</a></ul>
+                    <ul><a class="link"   href="..\pagine\history.html">Storia di tris</a></ul>
+                    <ul><a class="link"   href="..\pagine\game.html">Tris</a></ul>
+                    <ul><a class="link"   href="..\pagine\quiz.html">Quiz Finale<a class="arrow">  <== </a></a></ul>
+                </ol>
+            </nav>
+
+                <h1>Quiz</h1>
+                <h2>Videogiochi e i problemi del gioco d'azzardo</h2>
+        </header>
+
+
+    <div class="quiz-container">
+        <div id="start-screen">
+            <h1>Inizia il quiz</h1>
+            <p>rispondi correttamente alle 10 domande</p>
+            <button id="start-btn">Inizia il Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <div class="progress" id="progress">Domanda 1 di 10</div>
+            
+            <div id="questions-container">
+                
+                <div class="question-block" data-correct="1">
+                    <fieldset>
+                        <legend>Quanto denaro ha generato solo nel 2023 l'industria dei videogiochi?</legend>
+                        <label class="option"><input type="radio" name="q1" value="0">88 rubli</label>
+                        <label class="option"><input type="radio" name="q1" value="1">184 miliardi di dollari</label>
+                        <label class="option"><input type="radio" name="q1" value="2">6 arachidi e 3 caramelle</label>
+                        <label class="option"><input type="radio" name="q1" value="3"> 950 miliardi di euro</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="2">
+                    <fieldset>
+                        <legend>I videogiochi causano violenza?</legend>
+                        <label class="option"><input type="radio" name="q2" value="0"> Non lo so</label>
+                        <label class="option"><input type="radio" name="q2" value="1"> Si'</label>
+                        <label class="option"><input type="radio" name="q2" value="2"> No</label>
+                        <label class="option"><input type="radio" name="q2" value="3"> E' la parte migliore</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="0">
+                    <fieldset>
+                        <legend>Gli Esport dovrebbero venir riconosciuti come tali</legend>
+                        <label class="option"><input type="radio" name="q3" value="0"> E' un argomento ancora discusso</label>
+                        <label class="option"><input type="radio" name="q3" value="1"> Si'</label>
+                        <label class="option"><input type="radio" name="q3" value="2"> Solo gli sport all'aperto sono sport veri!</label>
+                        <label class="option"><input type="radio" name="q3" value="3"> No </label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="2">
+                    <fieldset>
+                        <legend>Per cosa sta VRRS</legend>
+                        <label class="option"><input type="radio" name="q4" value="0"> Veri Ratti Rotolano Supini</label>
+                        <label class="option"><input type="radio" name="q4" value="1"> Vorrei Rubare Rapaci Statici</label>
+                        <label class="option"><input type="radio" name="q4" value="2"> Variable Ratio Reinforcement Schedule</label>
+                        <label class="option"><input type="radio" name="q4" value="3"> Vincere Restituisce Ricompense Speciali</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="0">
+                    <fieldset>
+                        <legend>Qual'e' stato il primo videogioco</legend>
+                        <label class="option"><input type="radio" name="q5" value="0"> pong</label>
+                        <label class="option"><input type="radio" name="q5" value="1"> Tris</label>
+                        <label class="option"><input type="radio" name="q5" value="2"> DOOM</label>
+                        <label class="option"><input type="radio" name="q5" value="3"> Backgammon</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="1">
+                    <fieldset>
+                        <legend>Qual'e' stata la raccolta lorda del gioco d'azzardo nel 2022</legend>
+                        <label class="option"><input type="radio" name="q6" value="0"> 18 navi da guerra</label>
+                        <label class="option"><input type="radio" name="q6" value="1"> 136 miliardi di euro</label>
+                        <label class="option"><input type="radio" name="q6" value="2"> 136 milioni di euro</label>
+                        <label class="option"><input type="radio" name="q6" value="3"> 50 miliardi di euro</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="1">
+                    <fieldset>
+                        <legend>Quanto possono arrivare a valere le skin nelle aste online?</legend>
+                        <label class="option"><input type="radio" name="q7" value="0"> poche migliaia</label>
+                        <label class="option"><input type="radio" name="q7" value="1"> decine di migliaia di euro</label>
+                        <label class="option"><input type="radio" name="q7" value="2"> Miliardi di euro</label>
+                        <label class="option"><input type="radio" name="q7" value="3"> pochi Milioni di euro</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="2">
+                    <fieldset>
+                        <legend>Per cosa sta l'acronimo GAP?</legend>
+                        <label class="option"><input type="radio" name="q8" value="0"> Grandi Armature Proteggono</label>
+                        <label class="option"><input type="radio" name="q8" value="1"> Geniali Armadilli Puntualizzano</label>
+                        <label class="option"><input type="radio" name="q8" value="2"> Gioco d'Azzardo Patologico</label>
+                        <label class="option"><input type="radio" name="q8" value="3"> Genova Affonda Presto</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="2">
+                    <fieldset>
+                        <legend>Per cosa sta l'acronimo RTP?</legend>
+                        <label class="option"><input type="radio" name="q9" value="0"> Return To Producer</label>
+                        <label class="option"><input type="radio" name="q9" value="1"> Rami Tatticamente Piegati</label>
+                        <label class="option"><input type="radio" name="q9" value="2"> Return To Player</label>
+                        <label class="option"><input type="radio" name="q9" value="3"> Rivoluzione Troppo Precoce</label>
+                    </fieldset>
+                </div>
+
+                <div class="question-block hidden" data-correct="0">
+                    <fieldset>
+                        <legend>Qual'e' l'eta' minima per giocare d'azzardo in Italia?</legend>
+                        <label class="option"><input type="radio" name="q10" value="0"> 18</label>
+                        <label class="option"><input type="radio" name="q10" value="1"> 21</label>
+                        <label class="option"><input type="radio" name="q10" value="2"> 16</label>
+                        <label class="option"><input type="radio" name="q10" value="3"> 25</label>
+                    </fieldset>
+                </div>
+
+            </div>
+
+            <div id="feedback" class="feedback hidden"></div>
+            <br>
+            <button id="next-btn" disabled>Prossima domanda</button>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h1>Quiz Completato</h1>
+            <p id="score-text">Hai risposto correttamente a 0 domande su 10.</p>
+            <button id="restart-btn">Ripeti il Quiz</button>
+        </div>
+    </div>
+    <script src="../javascript/quiz.js"></script>
+    
+</body>
+
+<footer>
+        <div class="contatti">
+            <a class="link"       href="mailto:diego.gelmetti@salesiani.novara.it">progetto di Diego Gelmetti <e>       AKA Mordredd, hunter of the Guild</e></a>
+            <p>Salesiani Don Bosco | Via Baluardo Lamarmora 14, 28100 Novara (NO) | 4B | anno 2025-26</p>
+            <a href="http://www.salesianinovara.it/">www.salesianinovara.it</a>
+        </div>
+    </footer>
+</html>
